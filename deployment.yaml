@@ -15,5 +15,6 @@ spec:
       containers:
       - name: website
         image: magi35/website:v1
+        imagePullPolicy: Always
         ports:
         - containerPort: 80
